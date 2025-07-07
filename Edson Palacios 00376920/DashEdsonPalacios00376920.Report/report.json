@@ -1,0 +1,105 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.64\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 1300.00,
+      "name": "049ca1fa1404d3966722",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"41fe568d3ce096d6e0e4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":668.0100755667506,\"y\":268.51385390428214,\"z\":1000,\"width\":594.3324937027708,\"height\":301.25944584382876,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}],\"Category\":[{\"queryRef\":\"retiros.mes - nombre\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Recuento\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"mes - nombre\"},\"Name\":\"retiros.mes - nombre\",\"NativeReferenceName\":\"mes \"}]},\"columnProperties\":{\"CountNonNull(retiros.retiro_ID)\":{\"displayName\":\"Recuento\"},\"retiros.mes - nombre\":{\"displayName\":\"mes \"}},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Mes con mayor cantidad de retiros'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 301.26,
+          "width": 594.33,
+          "x": 668.01,
+          "y": 268.51,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"4541a7f054ad02220005\",\"layouts\":[{\"id\":0,\"position\":{\"x\":90.6801007556675,\"y\":26.448362720403022,\"z\":0,\"width\":279.5969773299748,\"height\":227.95969773299748,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"retiros.Edad_Academica_Promedio\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Edad_Academica_Promedio\"},\"Name\":\"retiros.Edad_Academica_Promedio\",\"NativeReferenceName\":\"Edad Academica Promedio\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Edad_Academica_Promedio\"}}}]},\"columnProperties\":{\"retiros.Edad_Academica_Promedio\":{\"displayName\":\"Edad Academica Promedio\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 227.96,
+          "width": 279.60,
+          "x": 90.68,
+          "y": 26.45,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"4c599ba9a09dc7c88a4a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":445.8438287153652,\"y\":51.63727959697733,\"z\":2000,\"width\":445.8438287153652,\"height\":180.1007556675063,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(retiros.mes - nombre)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"mes - nombre\"}},\"Function\":3},\"Name\":\"Min(retiros.mes - nombre)\",\"NativeReferenceName\":\"Primera fecha: mes - nombre\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 180.10,
+          "width": 445.84,
+          "x": 445.84,
+          "y": 51.64,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"509202352c57b7d29e20\",\"layouts\":[{\"id\":0,\"position\":{\"x\":103.1486146095718,\"y\":622.1662468513854,\"z\":3000,\"width\":473.1738035264484,\"height\":270.15113350125944,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}],\"Series\":[{\"queryRef\":\"retiros.tipo_retiro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Recuento de retiro_ID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"tipo_retiro\"},\"Name\":\"retiros.tipo_retiro\",\"NativeReferenceName\":\"tipo_retiro\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"' Porcentaje de retiros definitivos vs temporales'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 270.15,
+          "width": 473.17,
+          "x": 103.15,
+          "y": 622.17,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"519e911eba7038a97d1b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":103.1486146095718,\"y\":255.41561712846348,\"z\":7000,\"width\":482.9974811083124,\"height\":299.6221662468514,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"retiros.razon_retiro\",\"active\":true}],\"Series\":[{\"queryRef\":\"retiros.tipo_retiro\"}],\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"razon_retiro\"},\"Name\":\"retiros.razon_retiro\",\"NativeReferenceName\":\"razon de retiro\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"tipo_retiro\"},\"Name\":\"retiros.tipo_retiro\",\"NativeReferenceName\":\"tipo de retiro\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Recuento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"retiros.tipo_retiro\":{\"displayName\":\"tipo de retiro\"},\"CountNonNull(retiros.retiro_ID)\":{\"displayName\":\"Recuento\"},\"retiros.razon_retiro\":{\"displayName\":\"razon de retiro\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'correlación entre razón de retiro y tipo de retiro'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 299.62,
+          "width": 483.00,
+          "x": 103.15,
+          "y": 255.42,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"55dd9dc18226ede5e8ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":86.77581863979849,\"y\":916.8765743073048,\"z\":4000,\"width\":1203.4005037783377,\"height\":363.4760705289673,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"retiros.materia_nombre\",\"active\":true}],\"Values\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia_nombre\"},\"Name\":\"retiros.materia_nombre\",\"NativeReferenceName\":\"materia_nombre\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Recuento de retiro_ID\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Numero de retiros por materia'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 363.48,
+          "width": 1203.40,
+          "x": 86.78,
+          "y": 916.88,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"a9ff12b93650c1ac40d7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":715.4911838790932,\"y\":622.1662468513854,\"z\":5000,\"width\":527.2040302267003,\"height\":281.6120906801008,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}],\"Series\":[{\"queryRef\":\"retiros.semestre\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Recuento de retiro_ID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"semestre\"},\"Name\":\"retiros.semestre\",\"NativeReferenceName\":\"semestre\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros por semestre'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 281.61,
+          "width": 527.20,
+          "x": 715.49,
+          "y": 622.17,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"e23304c65400e80dcb50\",\"layouts\":[{\"id\":0,\"position\":{\"x\":941.4357682619648,\"y\":52.392947103274565,\"z\":6000,\"width\":320.9068010075567,\"height\":180.10075566750632,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"retiros.carrera\",\"active\":true}],\"Values\":[{\"queryRef\":\"retiros.PorcentajeFemeninoPorCarrera\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"carrera\"},\"Name\":\"retiros.carrera\",\"NativeReferenceName\":\"Carrera\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PorcentajeFemeninoPorCarrera\"},\"Name\":\"retiros.PorcentajeFemeninoPorCarrera\",\"NativeReferenceName\":\"Porcentaje de retiros femeninos\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"PorcentajeFemeninoPorCarrera\"}}}]},\"columnProperties\":{\"retiros.PorcentajeFemeninoPorCarrera\":{\"displayName\":\"Porcentaje de retiros femeninos\"},\"retiros.carrera\":{\"displayName\":\"Carrera\"}},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 180.10,
+          "width": 320.91,
+          "x": 941.44,
+          "y": 52.39,
+          "z": 6000.00
+        }
+      ],
+      "width": 1380.00
+    }
+  ]
+}

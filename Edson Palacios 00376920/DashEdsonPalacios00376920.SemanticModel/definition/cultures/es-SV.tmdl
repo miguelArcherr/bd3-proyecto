@@ -1,0 +1,3762 @@
+cultureInfo es-SV
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "retiro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "retiro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.retiro_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "retiro_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "retiro ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "retiro_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "retiro identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "retiro identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "retiro identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "retiro credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "retiro.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "retiro.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "retiro.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.semestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "semestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "estudiante_nombres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estudiante nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante_nombres": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_apellido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "estudiante_apellidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estudiante apellido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante_apellidos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.carrera": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "carrera"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "carrera": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_fecha_ingreso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "estudiante_fecha_ingreso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estudiante fecha ingreso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante_fecha_ingreso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "estudiante_fecha_ingreso",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_fecha_ingreso.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "estudiante_fecha_ingreso",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante fecha ingreso año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_fecha_ingreso.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "estudiante_fecha_ingreso",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante fecha ingreso trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_fecha_ingreso.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "estudiante_fecha_ingreso",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante fecha ingreso me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.estudiante_fecha_ingreso.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "estudiante_fecha_ingreso",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estudiante fecha ingreso día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.genero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "genero"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genero": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.docente_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "docente_nombres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "docente nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "docente_nombres": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.docente_apellido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "docente_apellidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "docente apellido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "docente_apellidos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.materia_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "materia_nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "materia nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "materia_nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.uv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "uvs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "uv": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.periodo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "periodo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "periodo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_inicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "fecha_inicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha inicio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha_inicio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "retiro.fecha_inicio.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_inicio",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_inicio.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_inicio",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha inicio año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_inicio.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_inicio",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha inicio trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_inicio.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_inicio",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha inicio me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_inicio.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_inicio",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha inicio día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_fin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "fecha_fin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha fin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha_fin": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "fecha appendage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha limb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha organ": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha flipper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fecha paddle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fecha projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "fecha propeller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "fecha rudder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "fecha stabilizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "retiro.fecha_fin.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_fin",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_fin.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_fin",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_fin.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_fin",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_fin.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_fin",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha appendage me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha limb me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha organ me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha member me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha flipper me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fecha paddle me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fecha projection me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "fecha propeller me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "fecha rudder me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "fecha stabilizer me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.fecha_fin.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "VariationSource": "fecha_fin",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.tipo_retiro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "tipo_retiro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo retiro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_retiro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "tipo de retiro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.razon_retiro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "razon_retiro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "razon retiro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "razon_retiro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "razon de retiro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.edad_academica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "Edad_academica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "edad academica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Edad_academica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.mes__nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "mes - nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes - nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me - nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mes nombre": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "me nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "mes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.edad_academica_promedio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "Edad_Academica_Promedio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "edad academica promedio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Edad_Academica_Promedio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.mes_con_mayor_cantidad_de_retiros": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "Mes_con_mayor_cantidad_de_retiros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes con mayor cantidad de retiros": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mes_con_mayor_cantidad_de_retiros": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.retiros_femeninos_por_carrera": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "RetirosFemeninosPorCarrera"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "retiros femeninos por carrera": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RetirosFemeninosPorCarrera": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.total_retiros_femeninos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "TotalRetirosFemeninos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total retiros femeninos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalRetirosFemeninos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate retiro femenino": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall retiro femenino": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "retiro.porcentaje_femenino_por_carrera": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "retiros",
+			          "ConceptualProperty": "PorcentajeFemeninoPorCarrera"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porcentaje femenino por carrera": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PorcentajeFemeninoPorCarrera": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Porcentaje de retiros femeninos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "retiro_fecha_fin_trimestre_has_retiro_fecha_fin_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.trimestre"
+			          }
+			        },
+			        "retiro.fecha_fin.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_año_has_retiro_fecha_fin_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.año": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.año"
+			          }
+			        },
+			        "retiro.fecha_fin.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.año"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha_fin.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años3"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_jerarquía_de_fecha_has_retiro_fecha_fin_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_fin.día": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_jerarquía_de_fecha_has_retiro_fecha_fin_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_fin.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_jerarquía_de_fecha_has_retiro_fecha_fin_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_fin.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_jerarquía_de_fecha_has_retiro_fecha_fin_año": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_fin.año": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin"
+			          }
+			        },
+			        "retiro.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_fins_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_me_has_retiro_fecha_inicio_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.me"
+			          }
+			        },
+			        "retiro.fecha_inicio.día": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.día"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me2"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_trimestre_has_retiro_fecha_inicio_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.trimestre"
+			          }
+			        },
+			        "retiro.fecha_inicio.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_año_has_retiro_fecha_inicio_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.año": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.año"
+			          }
+			        },
+			        "retiro.fecha_inicio.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.año"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años2"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_jerarquía_de_fecha_has_retiro_fecha_inicio_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_inicio.día": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días1"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_jerarquía_de_fecha_has_retiro_fecha_inicio_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_inicio.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me1"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_jerarquía_de_fecha_has_retiro_fecha_inicio_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_inicio.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_jerarquía_de_fecha_has_retiro_fecha_inicio_año": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha_inicio.año": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años1"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_inicio_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_inicio": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio"
+			          }
+			        },
+			        "retiro.fecha_inicio.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_inicio"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_inicios_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_me_has_retiro_estudiante_fecha_ingreso_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.me": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.me"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.día": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.día"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me1"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_trimestre_has_retiro_estudiante_fecha_ingreso_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.trimestre"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.me": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_año_has_retiro_estudiante_fecha_ingreso_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.año": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.año"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.año"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años1"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_jerarquía_de_fecha_has_retiro_estudiante_fecha_ingreso_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.día": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días2"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_jerarquía_de_fecha_has_retiro_estudiante_fecha_ingreso_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.me": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me2"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_jerarquía_de_fecha_has_retiro_estudiante_fecha_ingreso_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_jerarquía_de_fecha_has_retiro_estudiante_fecha_ingreso_año": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.año": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años2"
+			        }
+			      ]
+			    },
+			    "retiro_estudiante_fecha_ingreso_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.estudiante_fecha_ingreso": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.estudiante_fecha_ingreso"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estudiante_fecha_ingresos_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_me_has_retiro_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha.me"
+			          }
+			        },
+			        "retiro.fecha.día": {
+			          "Target": {
+			            "Entity": "retiro.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_trimestre_has_retiro_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha.trimestre"
+			          }
+			        },
+			        "retiro.fecha.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_año_has_retiro_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.año": {
+			          "Target": {
+			            "Entity": "retiro.fecha.año"
+			          }
+			        },
+			        "retiro.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_jerarquía_de_fecha_has_retiro_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha.día": {
+			          "Target": {
+			            "Entity": "retiro.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días3"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_jerarquía_de_fecha_has_retiro_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me3"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_jerarquía_de_fecha_has_retiro_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "retiro.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_jerarquía_de_fecha_has_retiro_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "retiro.fecha.año": {
+			          "Target": {
+			            "Entity": "retiro.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años3"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha"
+			          }
+			        },
+			        "retiro.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "retiro_has_porcentaje_femenino_por_carrera": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.porcentaje_femenino_por_carrera": {
+			          "Target": {
+			            "Entity": "retiro.porcentaje_femenino_por_carrera"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.porcentaje_femenino_por_carrera"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_porcentaje_femenino_por_carrera"
+			        }
+			      ]
+			    },
+			    "retiro_has_total_retiros_femeninos": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.total_retiros_femeninos": {
+			          "Target": {
+			            "Entity": "retiro.total_retiros_femeninos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.total_retiros_femeninos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_total_retiros_femeninos"
+			        }
+			      ]
+			    },
+			    "retiro_has_retiros_femeninos_por_carrera": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.retiros_femeninos_por_carrera": {
+			          "Target": {
+			            "Entity": "retiro.retiros_femeninos_por_carrera"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.retiros_femeninos_por_carrera"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_retiros_femeninos_por_carrera"
+			        }
+			      ]
+			    },
+			    "retiro_has_mes_con_mayor_cantidad_de_retiros": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.mes_con_mayor_cantidad_de_retiros": {
+			          "Target": {
+			            "Entity": "retiro.mes_con_mayor_cantidad_de_retiros"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.mes_con_mayor_cantidad_de_retiros"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_mes_con_mayor_cantidad_de_retiros"
+			        }
+			      ]
+			    },
+			    "retiro_has_edad_academica_promedio": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.edad_academica_promedio": {
+			          "Target": {
+			            "Entity": "retiro.edad_academica_promedio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.edad_academica_promedio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_edad_academica_promedio"
+			        }
+			      ]
+			    },
+			    "retiro_has_mes__nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.mes__nombre": {
+			          "Target": {
+			            "Entity": "retiro.mes__nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.mes__nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_mes__nombres"
+			        }
+			      ]
+			    },
+			    "retiro_has_edad_academica": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.edad_academica": {
+			          "Target": {
+			            "Entity": "retiro.edad_academica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.edad_academica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_edad_academicas"
+			        }
+			      ]
+			    },
+			    "retiro_has_razon_retiro": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.razon_retiro": {
+			          "Target": {
+			            "Entity": "retiro.razon_retiro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.razon_retiro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_razon_retiros"
+			        }
+			      ]
+			    },
+			    "retiro_has_tipo_retiro": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.tipo_retiro": {
+			          "Target": {
+			            "Entity": "retiro.tipo_retiro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.tipo_retiro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_tipo_retiros"
+			        }
+			      ]
+			    },
+			    "retiro_has_fecha_fin": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.fecha_fin": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_fecha_fins"
+			        }
+			      ]
+			    },
+			    "retiro_has_fecha_inicio": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.fecha_inicio": {
+			          "Target": {
+			            "Entity": "retiro.fecha_inicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_inicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_fecha_inicios"
+			        }
+			      ]
+			    },
+			    "retiro_has_periodo": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.periodo": {
+			          "Target": {
+			            "Entity": "retiro.periodo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.periodo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_periodos"
+			        }
+			      ]
+			    },
+			    "retiro_has_uv": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.uv": {
+			          "Target": {
+			            "Entity": "retiro.uv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.uv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_uv"
+			        }
+			      ]
+			    },
+			    "retiro_has_materia_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.materia_nombre": {
+			          "Target": {
+			            "Entity": "retiro.materia_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.materia_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_materia_nombres"
+			        }
+			      ]
+			    },
+			    "retiro_has_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.departamento": {
+			          "Target": {
+			            "Entity": "retiro.departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_departamentos"
+			        }
+			      ]
+			    },
+			    "retiro_has_docente_apellido": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.docente_apellido": {
+			          "Target": {
+			            "Entity": "retiro.docente_apellido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.docente_apellido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_docente_apellidos"
+			        }
+			      ]
+			    },
+			    "retiro_has_docente_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.docente_nombre": {
+			          "Target": {
+			            "Entity": "retiro.docente_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.docente_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_docente_nombres"
+			        }
+			      ]
+			    },
+			    "retiro_has_genero": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.genero": {
+			          "Target": {
+			            "Entity": "retiro.genero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.genero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_generos"
+			        }
+			      ]
+			    },
+			    "retiro_has_estudiante_fecha_ingreso": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.estudiante_fecha_ingreso": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_fecha_ingreso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_fecha_ingreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_estudiante_fecha_ingresos"
+			        }
+			      ]
+			    },
+			    "retiro_has_carrera": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.carrera": {
+			          "Target": {
+			            "Entity": "retiro.carrera"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.carrera"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_carrera"
+			        }
+			      ]
+			    },
+			    "retiro_has_estudiante_apellido": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.estudiante_apellido": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_apellido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_apellido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_estudiante_apellidos"
+			        }
+			      ]
+			    },
+			    "retiro_has_estudiante_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.estudiante_nombre": {
+			          "Target": {
+			            "Entity": "retiro.estudiante_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.estudiante_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_estudiante_nombres"
+			        }
+			      ]
+			    },
+			    "retiro_has_semestre": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.semestre": {
+			          "Target": {
+			            "Entity": "retiro.semestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.semestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_semestres"
+			        }
+			      ]
+			    },
+			    "retiro_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.me": {
+			          "Target": {
+			            "Entity": "retiro.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_me"
+			        }
+			      ]
+			    },
+			    "retiro_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.year": {
+			          "Target": {
+			            "Entity": "retiro.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_years"
+			        }
+			      ]
+			    },
+			    "retiro_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.fecha": {
+			          "Target": {
+			            "Entity": "retiro.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_fechas"
+			        }
+			      ]
+			    },
+			    "retiro_has_retiro_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro": {
+			          "Target": {
+			            "Entity": "retiro"
+			          }
+			        },
+			        "retiro.retiro_ID": {
+			          "Target": {
+			            "Entity": "retiro.retiro_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Object": {
+			              "Role": "retiro.retiro_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiros_have_retiro_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "retiro"
+			            },
+			            "Name": {
+			              "Role": "retiro.retiro_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "retiro_ID_are_names_IDs_of_retiros"
+			        }
+			      ]
+			    },
+			    "retiro_fecha_fin_me_has_retiro_fecha_fin_día": {
+			      "Binding": {
+			        "ConceptualEntity": "retiros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "retiro.fecha_fin.me": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.me"
+			          }
+			        },
+			        "retiro.fecha_fin.día": {
+			          "Target": {
+			            "Entity": "retiro.fecha_fin.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.me"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.día"
+			            },
+			            "Object": {
+			              "Role": "retiro.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "retiro.fecha_fin.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "retiro.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "DashEdsonPalacios00376920"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ea1dca53-b6a1-4644-b6c2-d75d43b9a144"
+  }
+}

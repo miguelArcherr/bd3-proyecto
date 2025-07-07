@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "DashEdsonPalacios00376920"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d1653e67-f492-466c-9103-769a6a073c24"
+  }
+}
