@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Alexis Merino00002521"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1a879872-6455-47f4-a3f4-fb0d25dc65e3"
+  }
+}
