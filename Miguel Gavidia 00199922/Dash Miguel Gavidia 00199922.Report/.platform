@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Dash Miguel Gavidia 00199922"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "76289161-ce6e-4a6d-b2bc-5348f9a0d4e4"
+  }
+}

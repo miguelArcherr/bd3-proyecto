@@ -1,0 +1,213 @@
+table retiros
+	lineageTag: 37274f35-1b20-4bf4-b8be-0861f1f10c1a
+
+	column retiro_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: ea2485f7-e1a7-4a54-bab4-6f69e4c55c1e
+		summarizeBy: count
+		sourceColumn: retiro_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c603c4a3-fa58-4902-998c-db54ea8a960d
+		summarizeBy: none
+		sourceColumn: fecha
+
+		variation Variación
+			isDefault
+			relationship: a13e1b21-8c05-47bf-926e-c6f661f9aaec
+			defaultHierarchy: LocalDateTable_c80799ec-ea50-4e94-a946-d8839a119009.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: e55e6c27-ad07-41dd-bf63-7889d3bc52c6
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 496e3734-5b9c-4159-a76a-0a413412578d
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column semestre
+		dataType: int64
+		formatString: 0
+		lineageTag: 390053d9-6d22-4625-bc3d-667315bd18f3
+		summarizeBy: sum
+		sourceColumn: semestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudiante_nombres
+		dataType: string
+		lineageTag: 9ac77435-2f5e-40af-984e-74f0b4e16229
+		summarizeBy: none
+		sourceColumn: estudiante_nombres
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudiante_apellidos
+		dataType: string
+		lineageTag: 2f14e413-e61c-4eb0-99ff-3edc8cefcbd0
+		summarizeBy: none
+		sourceColumn: estudiante_apellidos
+
+		annotation SummarizationSetBy = Automatic
+
+	column carrera
+		dataType: string
+		lineageTag: f11f63ce-7d16-4bf7-98a2-866f84ebf5e0
+		summarizeBy: none
+		sourceColumn: carrera
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudiante_fecha_ingreso
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c7673805-93e0-4995-99d0-a77afd0cfe60
+		summarizeBy: none
+		sourceColumn: estudiante_fecha_ingreso
+
+		variation Variación
+			isDefault
+			relationship: dfdf83cb-3c85-4706-aca3-ab3a42366412
+			defaultHierarchy: LocalDateTable_645ffae5-c4f1-46fb-af31-a2eca9212338.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column genero
+		dataType: string
+		lineageTag: 23077836-5de3-46d0-8de7-b14a68f8ae15
+		summarizeBy: none
+		sourceColumn: genero
+
+		annotation SummarizationSetBy = Automatic
+
+	column docente_nombres
+		dataType: string
+		lineageTag: a8724e44-000f-4de4-b33d-7795816c28e0
+		summarizeBy: none
+		sourceColumn: docente_nombres
+
+		annotation SummarizationSetBy = Automatic
+
+	column docente_apellidos
+		dataType: string
+		lineageTag: 67df3810-bfae-48b0-a4a0-9a529fce0068
+		summarizeBy: none
+		sourceColumn: docente_apellidos
+
+		annotation SummarizationSetBy = Automatic
+
+	column departamento
+		dataType: string
+		lineageTag: e8e76c5f-8f00-4327-9cd3-c6690852911b
+		summarizeBy: none
+		sourceColumn: departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column materia_nombre
+		dataType: string
+		lineageTag: 20e3a7a0-52e6-430e-b0f3-2b1cd1b31752
+		summarizeBy: none
+		sourceColumn: materia_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column uvs
+		dataType: int64
+		formatString: 0
+		lineageTag: e70160c5-6e30-417e-ae22-14024862e8b1
+		summarizeBy: sum
+		sourceColumn: uvs
+
+		annotation SummarizationSetBy = Automatic
+
+	column periodo
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f15b61d-ccea-4bdb-a6e2-c06187f9ce36
+		summarizeBy: sum
+		sourceColumn: periodo
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_inicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2d15cd1f-3e5b-4bab-b8af-9327b5ebe8dd
+		summarizeBy: none
+		sourceColumn: fecha_inicio
+
+		variation Variación
+			isDefault
+			relationship: 3a31036c-3a72-40b5-be07-5805794591b7
+			defaultHierarchy: LocalDateTable_e7ba9c40-029b-4563-8c8a-252cff2e9675.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column fecha_fin
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9036a74b-fc40-40a5-8d10-a1078ec35106
+		summarizeBy: none
+		sourceColumn: fecha_fin
+
+		variation Variación
+			isDefault
+			relationship: 3c2ed483-d768-4cfc-9cc3-65d9e96f40b2
+			defaultHierarchy: LocalDateTable_e58aa483-c1c1-4eb3-8ae9-1d60e961cac6.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column tipo_retiro
+		dataType: string
+		lineageTag: 278f7f32-b867-4af7-a85e-eadecc47581a
+		summarizeBy: none
+		sourceColumn: tipo_retiro
+
+		annotation SummarizationSetBy = Automatic
+
+	column razon_retiro
+		dataType: string
+		lineageTag: 3d8d7902-de1d-4044-95cb-10187a646d32
+		summarizeBy: none
+		sourceColumn: razon_retiro
+
+		annotation SummarizationSetBy = Automatic
+
+	partition retiros = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\migue\OneDrive\Desktop\u\BI\proyecto_final\retiros.csv"),[Delimiter=",", Columns=20, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"retiro_ID", Int64.Type}, {"fecha", type date}, {"year", Int64.Type}, {"mes", Int64.Type}, {"semestre", Int64.Type}, {"estudiante_nombres", type text}, {"estudiante_apellidos", type text}, {"carrera", type text}, {"estudiante_fecha_ingreso", type date}, {"genero", type text}, {"docente_nombres", type text}, {"docente_apellidos", type text}, {"departamento", type text}, {"materia_nombre", type text}, {"uvs", Int64.Type}, {"periodo", Int64.Type}, {"fecha_inicio", type date}, {"fecha_fin", type date}, {"tipo_retiro", type text}, {"razon_retiro", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,25 @@
+model Model
+	culture: es-SV
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-SV
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["retiros"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.144.1155.0 (25.06)+46435b07013d2a234d7fd007083a9e70b8e79f1c
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table retiros
+ref table DateTableTemplate_b8a6255d-272d-4eca-808b-1d15affea435
+ref table LocalDateTable_c80799ec-ea50-4e94-a946-d8839a119009
+ref table LocalDateTable_645ffae5-c4f1-46fb-af31-a2eca9212338
+ref table LocalDateTable_e7ba9c40-029b-4563-8c8a-252cff2e9675
+ref table LocalDateTable_e58aa483-c1c1-4eb3-8ae9-1d60e961cac6
+
+ref cultureInfo es-SV
+

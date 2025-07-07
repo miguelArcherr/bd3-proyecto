@@ -1,0 +1,105 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.65\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"192L\"}}},\"backgroundColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "24675252b231290ae4c8",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"093a0646c049779a8110\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":231.66666666666669,\"z\":1000,\"width\":363.33333333333337,\"height\":183.33333333333334,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(retiros.materia_nombre)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia_nombre\"}},\"Function\":5},\"Name\":\"Min(retiros.materia_nombre)\",\"NativeReferenceName\":\"Retiros de materias\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia_nombre\"}},\"Function\":5}}}]},\"columnProperties\":{\"Min(retiros.materia_nombre)\":{\"displayName\":\"Retiros de materias\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 183.33,
+          "width": 363.33,
+          "x": 10.00,
+          "y": 231.67,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"110530261394c064b1dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":390,\"y\":0,\"z\":5000,\"width\":826.6666666666667,\"height\":231.66666666666669,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"retiros.razon_retiro\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"razon_retiro\"},\"Name\":\"retiros.razon_retiro\",\"NativeReferenceName\":\"razon\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Rtiros\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(retiros.retiro_ID)\":{\"displayName\":\"Rtiros\"},\"retiros.razon_retiro\":{\"displayName\":\"razon\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C11522'\"}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"visualHeader\":[{\"properties\":{\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 231.67,
+          "width": 826.67,
+          "x": 390.00,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"356d28d1a06ed480413d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":390,\"y\":251.66666666666669,\"z\":3000,\"width\":426.6666666666667,\"height\":326.6666666666667,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"retiros.tipo_retiro\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"tipo_retiro\"},\"Name\":\"retiros.tipo_retiro\",\"NativeReferenceName\":\"tipo_retiro\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Retiros por tipo\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(retiros.retiro_ID)\":{\"displayName\":\"Retiros por tipo\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"slices\":[{\"properties\":{\"startAngle\":{\"expr\":{\"Literal\":{\"Value\":\"45L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C11522'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"retiros\"}},\"Property\":\"tipo_retiro\"}},\"Right\":{\"Literal\":{\"Value\":\"'Temporal'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":-0.25}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"retiros\"}},\"Property\":\"tipo_retiro\"}},\"Right\":{\"Literal\":{\"Value\":\"'Definitivo'\"}}}}}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Tipo de retiros'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 326.67,
+          "width": 426.67,
+          "x": 390.00,
+          "y": 251.67,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"3725dc9146e7c75ac862\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":436.6666666666667,\"z\":4000,\"width\":363.33333333333337,\"height\":268.33333333333337,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"retiros.materia_nombre\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia_nombre\"},\"Name\":\"retiros.materia_nombre\",\"NativeReferenceName\":\"materia_nombre\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Recuento de retiro_ID\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"general\":[{\"properties\":{\"responsive\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#C11522'\"}}}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros por materia'\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[{\"name\":\"3eb88870537349b7a7a3\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"retiros\"}},\"Property\":\"materia_nombre\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia_nombre\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Cálculo I'\"}}],[{\"Literal\":{\"Value\":\"'Cálculo II'\"}}],[{\"Literal\":{\"Value\":\"'Genética'\"}}],[{\"Literal\":{\"Value\":\"'Sociología'\"}}],[{\"Literal\":{\"Value\":\"'Estructuras de Datos'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{},\"isHiddenInViewMode\":true},{\"name\":\"866c33feea54ca1b611b\",\"type\":\"VisualTopN\",\"howCreated\":1}]",
+          "height": 268.33,
+          "width": 363.33,
+          "x": 10.00,
+          "y": 436.67,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"782175f9a6a34660b23e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":20,\"z\":0,\"width\":363.33333333333337,\"height\":183.33333333333334,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"Retiros totales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(retiros.retiro_ID)\":{\"displayName\":\"Retiros totales\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"categoryLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 183.33,
+          "width": 363.33,
+          "x": 10.00,
+          "y": 20.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"82b91086ec910448505d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":838.3333333333334,\"y\":251.66666666666669,\"z\":6000,\"width\":378.33333333333337,\"height\":326.6666666666667,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"retiros.genero\"},{\"queryRef\":\"CountNonNull(retiros.retiro_ID)\"},{\"queryRef\":\"retiros.materia_nombre\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"genero\"},\"Name\":\"retiros.genero\",\"NativeReferenceName\":\"genero\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"retiro_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(retiros.retiro_ID)\",\"NativeReferenceName\":\"numero total deRetiros\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia_nombre\"},\"Name\":\"retiros.materia_nombre\",\"NativeReferenceName\":\"materia\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"genero\"}}}]},\"columnProperties\":{\"CountNonNull(retiros.retiro_ID)\":{\"displayName\":\"numero total deRetiros\"},\"retiros.materia_nombre\":{\"displayName\":\"materia\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"total\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 326.67,
+          "width": 378.33,
+          "x": 838.33,
+          "y": 251.67,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"8e9ec5a05a72c30d7908\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":100,\"height\":40,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Back'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"cb39c7b1a1cced588209\",\"layouts\":[{\"id\":0,\"position\":{\"x\":390,\"y\":595,\"z\":7000,\"width\":826.6666666666667,\"height\":110,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Retiros Por Genero\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"36pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 110.00,
+          "width": 826.67,
+          "x": 390.00,
+          "y": 595.00,
+          "z": 7000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
