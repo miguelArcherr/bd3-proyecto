@@ -1,0 +1,20 @@
+relationship 0712854b-51ba-4fc3-b034-a35005e1e6e6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: retiros.fecha_retiro
+	toColumn: LocalDateTable_6d7844f7-b70b-451f-b304-84d1c6dcd3b9.Date
+
+relationship 028c28ce-043e-4a41-a4b5-c0749016f0a1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: retiros.estudiante_fecha_ingreso
+	toColumn: LocalDateTable_38b76ef6-7b8f-4301-bcdc-f120553823ac.Date
+
+relationship f00ca8d0-b3bd-4279-8c4e-8b1c52153936
+	joinOnDateBehavior: datePartOnly
+	fromColumn: retiros.inicio_periodo
+	toColumn: LocalDateTable_a661d44c-3e65-45d1-abeb-c8c9891bb287.Date
+
+relationship c81cf879-43a7-4a2c-be6e-69382e2751e7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: retiros.fin_periodo
+	toColumn: LocalDateTable_3f3e6fa6-6cb1-4d80-a830-ad9b85fc47e6.Date
+

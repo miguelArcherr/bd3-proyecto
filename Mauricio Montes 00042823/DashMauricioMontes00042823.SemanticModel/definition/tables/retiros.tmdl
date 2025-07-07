@@ -1,0 +1,294 @@
+table retiros
+	lineageTag: d73f6019-d458-4934-bd57-9d2254c2d17f
+
+	measure recuento_retiros = COUNT(retiros[retiro_ID])
+		formatString: 0
+		lineageTag: bab2c11e-de1e-419b-9fc7-e7b5d9d326a7
+
+	measure promedio_dias_antes_retiro = AVERAGE(retiros[dias_antes_retiro])
+		lineageTag: e827c447-4dbe-4744-85e2-dbdd737c337a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure promedio_meses_antes_retiro = AVERAGE(retiros[meses_antes_retiro])
+		lineageTag: 5e880939-a7f0-4955-9700-e7c9a4bf6700
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure promedio_years_antes_retiro = AVERAGE(retiros[years_antes_retiro])
+		lineageTag: a0fbd6b6-55b1-47b6-a647-47d5b6dd102d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure recuento_retiros_2022 = CALCULATE(COUNT(retiros[retiro_ID]), YEAR(retiros[fecha_retiro]) == 2022)
+		formatString: 0
+		lineageTag: cb7d5042-dcdd-4c7b-a1bc-f83e95faf433
+
+	measure recuento_retiros_2023 = CALCULATE(COUNT(retiros[retiro_ID]), YEAR(retiros[fecha_retiro]) == 2023)
+		formatString: 0
+		lineageTag: cfb1d773-279f-4dfd-9b58-3906c2371c06
+
+	measure recuento_retiros_masculino = CALCULATE(COUNT(retiros[retiro_ID]), retiros[genero] == "Masculino")
+		formatString: 0
+		lineageTag: 7c958df1-5cee-416d-9421-daf3971b7f7a
+
+	measure recuento_retiros_femenino = CALCULATE(COUNT(retiros[retiro_ID]), retiros[genero] == "Femenino")
+		formatString: 0
+		lineageTag: 39b3635a-4e84-43fc-aadf-b85049386e7a
+
+	column retiro_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 032df5c0-38b2-4e10-8057-3780c177989a
+		summarizeBy: count
+		sourceColumn: retiro_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_retiro
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f0ad9953-ce93-4203-9dc7-affcf20ac301
+		summarizeBy: none
+		sourceColumn: fecha_retiro
+
+		variation Variación
+			isDefault
+			relationship: 0712854b-51ba-4fc3-b034-a35005e1e6e6
+			defaultHierarchy: LocalDateTable_6d7844f7-b70b-451f-b304-84d1c6dcd3b9.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: c23d98cc-0c90-496a-af23-ad82e318685c
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 739f98d5-31b8-4051-abf2-678e8c0d1964
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_mes
+		dataType: string
+		lineageTag: 6ba9d034-6955-4d0a-9b36-fac4c117c4a5
+		summarizeBy: none
+		sourceColumn: nombre_mes
+		sortByColumn: mes
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column semestre
+		dataType: int64
+		formatString: 0
+		lineageTag: 77d10f30-a874-4ae7-9bd6-2a560aa27774
+		summarizeBy: sum
+		sourceColumn: semestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudiante
+		dataType: string
+		lineageTag: 32bc30d7-1965-4611-8a3e-44d0ebf699d8
+		summarizeBy: none
+		sourceColumn: estudiante
+
+		annotation SummarizationSetBy = Automatic
+
+	column carrera
+		dataType: string
+		lineageTag: 2943171f-37bd-4407-aefb-9ead598e79d8
+		summarizeBy: none
+		sourceColumn: carrera
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudiante_fecha_ingreso
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7c067111-58f6-4028-b66b-cbfb6e65a43d
+		summarizeBy: none
+		sourceColumn: estudiante_fecha_ingreso
+
+		variation Variación
+			isDefault
+			relationship: 028c28ce-043e-4a41-a4b5-c0749016f0a1
+			defaultHierarchy: LocalDateTable_38b76ef6-7b8f-4301-bcdc-f120553823ac.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column genero
+		dataType: string
+		lineageTag: 3912a95b-d2ad-463b-bd57-992a8c1f8dbe
+		summarizeBy: none
+		sourceColumn: genero
+
+		annotation SummarizationSetBy = Automatic
+
+	column docente
+		dataType: string
+		lineageTag: 00274e94-f9b2-4ee6-9e71-3b0b38417784
+		summarizeBy: none
+		sourceColumn: docente
+
+		annotation SummarizationSetBy = Automatic
+
+	column departamento
+		dataType: string
+		lineageTag: 8d361995-6b86-4801-af25-d253e6ab5afd
+		summarizeBy: none
+		sourceColumn: departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column materia
+		dataType: string
+		lineageTag: c7b4aa14-134d-4ed5-afcc-4d009d3533eb
+		summarizeBy: none
+		sourceColumn: materia
+
+		annotation SummarizationSetBy = Automatic
+
+	column uvs
+		dataType: int64
+		formatString: 0
+		lineageTag: 7faa5213-ddc4-41b0-89ec-571189660bc9
+		summarizeBy: sum
+		sourceColumn: uvs
+
+		annotation SummarizationSetBy = Automatic
+
+	column periodo
+		dataType: int64
+		formatString: 0
+		lineageTag: b63f0ed1-aaf1-408d-b95f-c9ea4ddd8ba7
+		summarizeBy: sum
+		sourceColumn: periodo
+
+		annotation SummarizationSetBy = Automatic
+
+	column inicio_periodo
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c9acfb78-1159-4c14-acb4-4876de0b2ea2
+		summarizeBy: none
+		sourceColumn: inicio_periodo
+
+		variation Variación
+			isDefault
+			relationship: f00ca8d0-b3bd-4279-8c4e-8b1c52153936
+			defaultHierarchy: LocalDateTable_a661d44c-3e65-45d1-abeb-c8c9891bb287.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column fin_periodo
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c8621e32-8f09-4e85-bd2a-583dfda11162
+		summarizeBy: none
+		sourceColumn: fin_periodo
+
+		variation Variación
+			isDefault
+			relationship: c81cf879-43a7-4a2c-be6e-69382e2751e7
+			defaultHierarchy: LocalDateTable_3f3e6fa6-6cb1-4d80-a830-ad9b85fc47e6.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column tipo_retiro
+		dataType: string
+		lineageTag: 29335120-0b66-4d4c-afa0-7e5c050feda9
+		summarizeBy: none
+		sourceColumn: tipo_retiro
+
+		annotation SummarizationSetBy = Automatic
+
+	column razon_retiro
+		dataType: string
+		lineageTag: 768065f2-e43c-4427-8508-e7a43364587b
+		summarizeBy: none
+		sourceColumn: razon_retiro
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_antes_retiro = DATEDIFF(retiros[estudiante_fecha_ingreso], retiros[fecha_retiro], DAY)
+		formatString: 0
+		lineageTag: fffcfdf6-a85d-46b0-b354-729bd9332b18
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column meses_antes_retiro = DATEDIFF(retiros[estudiante_fecha_ingreso], retiros[fecha_retiro], MONTH)
+		formatString: 0
+		lineageTag: c29daeae-8b41-42de-b382-23870b52ece3
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column years_antes_retiro = DATEDIFF(retiros[estudiante_fecha_ingreso], retiros[fecha_retiro], YEAR)
+		formatString: 0
+		lineageTag: ba33adb7-c33e-4b97-bf73-279eab2b5388
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column periodo_year = FORMAT(retiros[periodo], "00") & "-" & FORMAT(retiros[year], "0000")
+		lineageTag: d883480f-0b34-480b-9208-bdd382e6a783
+		summarizeBy: none
+		sortByColumn: periodo_year_order
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column periodo_year_order = CONCATENATE(retiros[year], retiros[periodo])
+		dataType: int64
+		formatString: 0
+		lineageTag: 053a0a67-4851-4217-888d-17c217781364
+		summarizeBy: sum
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	partition retiros = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\MAURICIO MONTES\OneDrive - UNIVERSIDAD CENTROAMERICANA JOSÉ SIMEÓN CAÑAS\proyecto-iii bd3\retiros.csv"),[Delimiter=",", Columns=20, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"retiro_ID", Int64.Type}, {"fecha", type date}, {"year", Int64.Type}, {"mes", Int64.Type}, {"semestre", Int64.Type}, {"estudiante_nombres", type text}, {"estudiante_apellidos", type text}, {"carrera", type text}, {"estudiante_fecha_ingreso", type date}, {"genero", type text}, {"docente_nombres", type text}, {"docente_apellidos", type text}, {"departamento", type text}, {"materia_nombre", type text}, {"uvs", Int64.Type}, {"periodo", Int64.Type}, {"fecha_inicio", type date}, {"fecha_fin", type date}, {"tipo_retiro", type text}, {"razon_retiro", type text}}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"fecha", "fecha_retiro"}}),
+				    #"Columna combinada insertada" = Table.AddColumn(#"Columnas con nombre cambiado", "estudiante", each Text.Combine({[estudiante_nombres], [estudiante_apellidos]}, " "), type text),
+				    #"Columnas reordenadas" = Table.ReorderColumns(#"Columna combinada insertada",{"retiro_ID", "fecha_retiro", "year", "mes", "semestre", "estudiante_nombres", "estudiante_apellidos", "estudiante", "carrera", "estudiante_fecha_ingreso", "genero", "docente_nombres", "docente_apellidos", "departamento", "materia_nombre", "uvs", "periodo", "fecha_inicio", "fecha_fin", "tipo_retiro", "razon_retiro"}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Columnas reordenadas",{"estudiante_nombres", "estudiante_apellidos", "docente_apellidos"}),
+				    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Columnas quitadas",{{"docente_nombres", "docente"}, {"materia_nombre", "materia"}, {"fecha_inicio", "inicio_periodo"}, {"fecha_fin", "fin_periodo"}}),
+				    #"Columna duplicada" = Table.DuplicateColumn(#"Columnas con nombre cambiado1", "fecha_retiro", "fecha_retiro - Copia"),
+				    #"Columnas reordenadas1" = Table.ReorderColumns(#"Columna duplicada",{"retiro_ID", "fecha_retiro", "year", "mes", "fecha_retiro - Copia", "semestre", "estudiante", "carrera", "estudiante_fecha_ingreso", "genero", "docente", "departamento", "materia", "uvs", "periodo", "inicio_periodo", "fin_periodo", "tipo_retiro", "razon_retiro"}),
+				    #"Nombre del mes extraído" = Table.TransformColumns(#"Columnas reordenadas1", {{"fecha_retiro - Copia", each Date.MonthName(_), type text}}),
+				    #"Columnas con nombre cambiado2" = Table.RenameColumns(#"Nombre del mes extraído",{{"fecha_retiro - Copia", "nombre_mes"}})
+				in
+				    #"Columnas con nombre cambiado2"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

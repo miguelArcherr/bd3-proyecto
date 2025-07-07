@@ -1,0 +1,138 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.65\",\"type\":2},\"customTheme\":{\"name\":\"Custom4324122360205379.json\",\"version\":\"5.65\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Custom4324122360205379.json",
+            "path": "Custom4324122360205379.json",
+            "type": 201
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 1350.00,
+      "name": "aa987e5d6998a56da761",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1dabe490870d025cee00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":5000,\"width\":624,\"height\":450,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"ribbonChart\",\"projections\":{\"Category\":[{\"queryRef\":\"retiros.materia\",\"active\":true}],\"Y\":[{\"queryRef\":\"retiros.recuento_retiros\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"materia\"},\"Name\":\"retiros.materia\",\"NativeReferenceName\":\"Materia\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros\"},\"Name\":\"retiros.recuento_retiros\",\"NativeReferenceName\":\"Retiros\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros\"}}}]},\"columnProperties\":{\"retiros.recuento_retiros\":{\"displayName\":\"Retiros\"},\"retiros.materia\":{\"displayName\":\"Materia\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"ribbonBands\":[{\"properties\":{\"fillTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"70D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 450.00,
+          "width": 624.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"29ca297ee8120085c080\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1256,\"y\":0,\"z\":1000,\"width\":344,\"height\":152,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"retiros.promedio_dias_antes_retiro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"promedio_dias_antes_retiro\"},\"Name\":\"retiros.promedio_dias_antes_retiro\",\"NativeReferenceName\":\"Días promedio antes de un retiro\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"promedio_dias_antes_retiro\"}}}]},\"columnProperties\":{\"retiros.promedio_dias_antes_retiro\":{\"displayName\":\"Días promedio antes de un retiro\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 152.00,
+          "width": 344.00,
+          "x": 1256.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"2e084871265d6e550d0e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1256,\"y\":152,\"z\":2000,\"width\":344,\"height\":152,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"retiros.promedio_meses_antes_retiro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"promedio_meses_antes_retiro\"},\"Name\":\"retiros.promedio_meses_antes_retiro\",\"NativeReferenceName\":\"Meses promedio antes de un retiro\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"promedio_meses_antes_retiro\"}}}]},\"columnProperties\":{\"retiros.promedio_meses_antes_retiro\":{\"displayName\":\"Meses promedio antes de un retiro\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.00,
+          "width": 344.00,
+          "x": 1256.00,
+          "y": 152.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"4e5f133607c17ad69701\",\"layouts\":[{\"id\":0,\"position\":{\"x\":624,\"y\":0,\"z\":0,\"width\":632,\"height\":450,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"retiros.recuento_retiros\"}],\"Series\":[{\"queryRef\":\"retiros.razon_retiro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros\"},\"Name\":\"retiros.recuento_retiros\",\"NativeReferenceName\":\"recuento_retiros\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"razon_retiro\"},\"Name\":\"retiros.razon_retiro\",\"NativeReferenceName\":\"razon_retiro\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Frecuencia de razones de retiro'\"}}},\"heading\":{\"expr\":{\"Literal\":{\"Value\":\"'Heading2'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"retiros\"}},\"Property\":\"razon_retiro\"}},\"Function\":2}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"retiros\"}},\"Property\":\"razon_retiro\"}},\"Function\":2}},\"Scope\":[]}},\"Operator\":3}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 450.00,
+          "width": 632.00,
+          "x": 624.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"508d42a5922694ea42ca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":100,\"height\":40,\"z\":3000,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Back'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"8321642198380a290b87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1256,\"y\":304,\"z\":4000,\"width\":344,\"height\":152,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"retiros.promedio_years_antes_retiro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"promedio_years_antes_retiro\"},\"Name\":\"retiros.promedio_years_antes_retiro\",\"NativeReferenceName\":\"Años promedio antes de un retiro\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"promedio_years_antes_retiro\"}}}]},\"columnProperties\":{\"retiros.promedio_years_antes_retiro\":{\"displayName\":\"Años promedio antes de un retiro\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 152.00,
+          "width": 344.00,
+          "x": 1256.00,
+          "y": 304.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"b296eb333dd38960de65\",\"layouts\":[{\"id\":0,\"position\":{\"x\":800,\"y\":460,\"z\":7000,\"width\":800,\"height\":440,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"retiros.recuento_retiros\"}],\"Category\":[{\"queryRef\":\"retiros.periodo_year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros\"},\"Name\":\"retiros.recuento_retiros\",\"NativeReferenceName\":\"recuento_retiros\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"periodo_year\"},\"Name\":\"retiros.periodo_year\",\"NativeReferenceName\":\"periodo_year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"logAxisScale\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Periodos'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros por periodo en los últimos años'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 440.00,
+          "width": 800.00,
+          "x": 800.00,
+          "y": 460.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"bd02ad828922e99abcbd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":864,\"y\":910,\"width\":736,\"height\":440,\"z\":9000,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"retiros.recuento_retiros_masculino\"},{\"queryRef\":\"retiros.recuento_retiros_femenino\"}],\"Category\":[{\"queryRef\":\"retiros.carrera\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros_masculino\"},\"Name\":\"retiros.recuento_retiros_masculino\",\"NativeReferenceName\":\"Masculino\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros_femenino\"},\"Name\":\"retiros.recuento_retiros_femenino\",\"NativeReferenceName\":\"Femenino\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"carrera\"},\"Name\":\"retiros.carrera\",\"NativeReferenceName\":\"carrera\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros_masculino\"}}}]},\"columnProperties\":{\"retiros.recuento_retiros_masculino\":{\"displayName\":\"Masculino\"},\"retiros.recuento_retiros_femenino\":{\"displayName\":\"Femenino\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Carreras'\"}}}}}],\"legend\":[{\"properties\":{\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"retiros.recuento_retiros_masculino\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"retiros.recuento_retiros_femenino\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Distribución de retiros por género y por carrera'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 440.00,
+          "width": 736.00,
+          "x": 864.00,
+          "y": 910.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"c052b6adea40d9c040aa\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":460,\"z\":6000,\"width\":800,\"height\":440,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"retiros.nombre_mes\",\"active\":true}],\"Y\":[{\"queryRef\":\"retiros.recuento_retiros_2022\"},{\"queryRef\":\"retiros.recuento_retiros_2023\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"nombre_mes\"},\"Name\":\"retiros.nombre_mes\",\"NativeReferenceName\":\"nombre_mes\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros_2022\"},\"Name\":\"retiros.recuento_retiros_2022\",\"NativeReferenceName\":\"2022\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros_2023\"},\"Name\":\"retiros.recuento_retiros_2023\",\"NativeReferenceName\":\"2023\"}]},\"columnProperties\":{\"retiros.recuento_retiros_2022\":{\"displayName\":\"2022\"},\"retiros.recuento_retiros_2023\":{\"displayName\":\"2023\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":5,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"retiros.recuento_retiros_2022\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"retiros.recuento_retiros_2023\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros por mes en los últimos años'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 440.00,
+          "width": 800.00,
+          "x": 0.00,
+          "y": 460.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"f37f370a48242b7d2810\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":910,\"z\":8000,\"width\":864,\"height\":440,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"retiros.recuento_retiros\"}],\"Group\":[{\"queryRef\":\"retiros.docente\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"retiros\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"recuento_retiros\"},\"Name\":\"retiros.recuento_retiros\",\"NativeReferenceName\":\"recuento_retiros\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"docente\"},\"Name\":\"retiros.docente\",\"NativeReferenceName\":\"docente\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Retiros de estudiantes por docente'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 440.00,
+          "width": 864.00,
+          "x": 0.00,
+          "y": 910.00,
+          "z": 8000.00
+        }
+      ],
+      "width": 1600.00
+    }
+  ],
+  "theme": "Custom4324122360205379.json"
+}
